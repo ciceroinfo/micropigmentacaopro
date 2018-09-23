@@ -25,7 +25,24 @@
 
   gtag('config', 'UA-117448030-1');
 </script>
+<!--script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '1870687066368608',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v3.1'
+    });
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script-->
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
@@ -33,9 +50,11 @@
 
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="tel:(41)991348410" class="w3-bar-item w3-button">(41) 9 9201-3979</a>
+      <!--a href="tel:(41)991348410" class="w3-bar-item w3-button">(41) 9 9201-3979</a-->
       <a href="#projects" class="w3-bar-item w3-button">Projetos</a>
-      <a href="#about" class="w3-bar-item w3-button">Sobre</a>
+      <a href="cuidados.html" class="w3-bar-item w3-button">Cuidados</a>
+	  <a href="duvidas.html" class="w3-bar-item w3-button">Duvidas</a>
+	  <a href="#about" class="w3-bar-item w3-button">Sobre</a>
       <a href="#contact" class="w3-bar-item w3-button">Contato</a>
     </div>
   </div>
@@ -118,37 +137,39 @@
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Sobre</h3>
     <p>
-      Sou Pâmela Jacqueline e trabalho com sobrancelas a mais de 10 anos.
+      Micropigmentação <b>PRO</b> é a sua melhor opção para obter sobrancelhas lindamente desenhadas utilizando técnicas de micropigmentação. Nós nos especializamos em criar sobrancelhas personalizadas, naturais para se adequar ao seu estilo de vida. Nossas transformações nas sobrancelhas levam apenas 2 horas e podem durar de 6 meses até 1 ano!
     </p>
   </div>
 
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="./w3images/about1.jpg" alt="Pamela Jacqueline" style="width:100%">
+      <img src="./w3images/perfil_micropigmentacao.png" alt="Pamela Jacqueline" style="width:100%">
       <h3>Pâmela Jacqueline</h3>
       <p class="w3-opacity">Artista</p>
-      <p>Designer de Sobrancelhas, especialista em Micropigmentação.</p>
+      <p>
+		Atuo na área de beleza por volta de oito anos. Sou Designer de Sobrancelhas, especialista em Micropigmentação.
+	  </p>
       <!-- <p><button class="w3-button w3-light-grey w3-block">Contact</button></p> -->
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="./w3images/about1.jpg" alt="Micropigmentação" style="width:100%">
       <h3>Micropigmentação</h3>
       <p class="w3-opacity">Tecnica Fio a Fio</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p>Esta técnica imita os fios, sendo feita um a um.</p>
       <!-- <p><button class="w3-button w3-light-grey w3-block">Contact</button></p> -->
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="./w3images/about1.jpg" alt="Micropigmentação" style="width:100%">
       <h3>Micropigmentação</h3>
       <p class="w3-opacity">Microblading</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p>Microblading é uma técnica feita à mão livre, a técnica usa o tebori, uma caneta super fina (tecnicamente, um pacote de 12 a 15 agulhas) para depositar o pigmento na pele. A ponta é tão fina, que pode criar traços de cabelo que pareçam legítimos. O resultado é hiper-realista. E as agulhas alcançam apenas as camadas superficiais da pele, que é o que torna o método semi-permanente.</p>
       <!-- <p><button class="w3-button w3-light-grey w3-block">Contact</button></p> -->
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="./w3images/about1.jpg" alt="Micropigmentação" style="width:100%">
+      <img src="./w3images/micropigmentacao.png" alt="Micropigmentação" style="width:100%">
       <h3>Micropigmentação</h3>
-      <p class="w3-opacity">Micropigmentação</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p class="w3-opacity">Técnica Esfumada</p>
+      <p>imita os fios e cria um sombreado entre eles, dando a impressão de sobrancelhas mais fartas.</p>
       <!-- <p><button class="w3-button w3-light-grey w3-block">Contact</button></p> -->
     </div>
   </div>
@@ -162,8 +183,35 @@
     <a href="tel:041991348410" class="w3-button w3-black w3-section">LIGAR (41) 9 9201-3979</a>
     <a href="https://www.facebook.com/micropigmentacaopro/" target="_blank"><img src="./images/facebook48.png" width="38" height="38" alt="Facebook"></a>
     <a href="https://www.instagram.com/micropigmentacaopro/" target="_blank"><img src="./images/instagram48.png" width="38" height="38" alt="Instagram"></a>
+	<a href="https://wa.me/554192013979" target="_blank"><img src="./images/whatsapp48.png" width="38" height="38" alt="Whatsapp"></a>
+	<a href="https://m.me/micropigmentacaopro" target="_blank"><img src="./images/messenger48.png" width="38" height="38" alt="Facebook Messenger"></a>
+	<!--/br>
+	<div class="fb-messengermessageus" 
+	  messenger_app_id="1870687066368608" 
+	  page_id="157779918222219"
+	  color="white"
+	  size="xlarge">
+	</div-->
+	<p style="margin:0"><font size="2" color="gray">micropigmentacaopro@gmail.com</font></p>
   </div>
-  
+  <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="157779918222219"
+  theme_color="#0084ff"
+  logged_in_greeting="Olá, em que posso ajudar?"
+  logged_out_greeting="Olá, em que posso ajudar?">
+</div>
 <!-- End page content -->
 </div>
 
@@ -172,7 +220,7 @@
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Powered by <a href="https://www.humanize-se.com" title="W3.CSS" target="_blank" class="w3-hover-text-green">Humanize-se</a></p>
 </footer>
 
 <!-- Add Google Maps -->
