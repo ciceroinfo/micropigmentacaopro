@@ -25,24 +25,7 @@
 
   gtag('config', 'UA-117448030-1');
 </script>
-<!--script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '1870687066368608',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v3.1'
-    });
-  };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script-->
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
@@ -51,11 +34,11 @@
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <!--a href="tel:(41)991348410" class="w3-bar-item w3-button">(41) 9 9201-3979</a-->
-      <a href="#projects" class="w3-bar-item w3-button">Projetos</a>
+      <a href="#projetos" class="w3-bar-item w3-button">Projetos</a>
       <a href="cuidados.html" class="w3-bar-item w3-button">Cuidados</a>
 	  <a href="duvidas.html" class="w3-bar-item w3-button">Duvidas</a>
-	  <a href="#about" class="w3-bar-item w3-button">Sobre</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contato</a>
+	  <a href="#sobre" class="w3-bar-item w3-button">Sobre</a>
+      <a href="#contato" class="w3-bar-item w3-button">Contato</a>
     </div>
   </div>
 </div>
@@ -75,7 +58,7 @@
 <div class="w3-content w3-padding" style="max-width:1564px">
 
   <!-- Project Section -->
-  <div class="w3-container w3-padding-32" id="projects">
+  <div class="w3-container w3-padding-32" id="projetos">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projetos</h3>
   </div>
 
@@ -105,7 +88,7 @@
       </div>
     </div>
   </div>
-
+<!--
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
@@ -132,9 +115,9 @@
       </div>
     </div>
   </div>
-
+-->
   <!-- About Section -->
-  <div class="w3-container w3-padding-32" id="about">
+  <div class="w3-container w3-padding-32" id="sobre">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Sobre</h3>
     <p>
       Micropigmentação <b>PRO</b> é a sua melhor opção para obter sobrancelhas lindamente desenhadas utilizando técnicas de micropigmentação. Nós nos especializamos em criar sobrancelhas personalizadas, naturais para se adequar ao seu estilo de vida. Nossas transformações nas sobrancelhas levam apenas 2 horas e podem durar de 6 meses até 1 ano!
@@ -175,43 +158,37 @@
   </div>
 
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-32" id="contact">
+  <div class="w3-container w3-padding-32" id="contato">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contato</h3>
     <p>Vamos entrar em contato e falar sobre o seu e nosso próximo projeto.</p>
-    <p style="margin:0"><font size="2" color="gray">Podemos conversar por E-mail, Celular, Instagram, Facebook ou Whatsapp</font></p>
+    <p style="margin:0"><font size="2" color="gray">Podemos conversar por E-mail, Celular, Instagram, Facebook Messager ou Whatsapp</font></p>
     <a href="mailto:micropigmentacaopro@gmail.com" class="w3-button w3-black w3-section">micropigmentacaopro@gmail.com</a>
     <a href="tel:041991348410" class="w3-button w3-black w3-section">LIGAR (41) 9 9201-3979</a>
     <a href="https://www.facebook.com/micropigmentacaopro/" target="_blank"><img src="./images/facebook48.png" width="38" height="38" alt="Facebook"></a>
     <a href="https://www.instagram.com/micropigmentacaopro/" target="_blank"><img src="./images/instagram48.png" width="38" height="38" alt="Instagram"></a>
 	<a href="https://wa.me/554192013979" target="_blank"><img src="./images/whatsapp48.png" width="38" height="38" alt="Whatsapp"></a>
 	<a href="https://m.me/micropigmentacaopro" target="_blank"><img src="./images/messenger48.png" width="38" height="38" alt="Facebook Messenger"></a>
-	<!--/br>
-	<div class="fb-messengermessageus" 
-	  messenger_app_id="1870687066368608" 
-	  page_id="157779918222219"
-	  color="white"
-	  size="xlarge">
-	</div-->
 	<p style="margin:0"><font size="2" color="gray">micropigmentacaopro@gmail.com</font></p>
   </div>
+  
   <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="157779918222219"
-  theme_color="#0084ff"
-  logged_in_greeting="Olá, em que posso ajudar?"
-  logged_out_greeting="Olá, em que posso ajudar?">
-</div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="157779918222219"
+    theme_color="#0084ff"
+    logged_in_greeting="Olá, em que posso ajudar?"
+    logged_out_greeting="Olá, em que posso ajudar?">
+  </div>
 <!-- End page content -->
 </div>
 
