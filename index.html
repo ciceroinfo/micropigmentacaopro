@@ -219,7 +219,7 @@
   <!-- Contact Section -->
   <div class="w3-container w3-padding-32" id="contato">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contato</h3>
-    <p>Vamos entrar em contato e falar sobre o seu e nosso próximo projeto.</p>
+    <p>Vamos entrar em contato e falar sobre o seu e nosso próximo projeto. Qualquer duvida você pode entrar em contato pelos links abaixo:</p>
     <p style="margin:0"><font size="2" color="gray">Podemos conversar por E-mail, Celular, Instagram, Facebook Messager ou Whatsapp</font></p>
     <a href="tel:041991348410" class="w3-button w3-black w3-section">LIGAR (41) 9 9201-3979</a><br />
     <a href="https://www.facebook.com/micropigmentacaopro/" target="_blank"><img src="./images/facebook48.png" width="38" height="38" alt="Facebook"></a>
@@ -229,7 +229,7 @@
 	<p style="margin:0"><font size="2" color="gray"><a href="mailto:micropigmentacaopro@gmail.com">micropigmentacaopro@gmail.com</a></font></p>
   </div>
   
-  <!-- Load Facebook SDK for JavaScript -->
+  <!-- Load Facebook SDK for JavaScript ->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -239,7 +239,7 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
   
-  <!-- Your customer chat code -->
+  <!-- Your customer chat code ->
   <div class="fb-customerchat"
     attribution=setup_tool
     page_id="157779918222219"
@@ -281,6 +281,26 @@ function myMap()
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
+
+
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "157779918222219", // Facebook page ID
+            whatsapp: "+5541992013979", // WhatsApp number
+            call_to_action: "Olá, em que posso ajudar?", // Call to action
+            button_color: "#129BF4", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "facebook,whatsapp", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
 
 </body>
 </html>
