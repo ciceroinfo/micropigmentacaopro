@@ -14,7 +14,10 @@
 <meta name="Creator" content="Pamela Jacqueline">
 <meta name="Publisher" content="Pamela Jacqueline">
 <link rel="stylesheet" href="./w3images/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
+
+<script src="./js/scripts.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117448030-1"></script>
@@ -29,7 +32,7 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button">Micropigmentação <b>PRO</b></a>
+    <a href="#home" class="w3-bar-item w3-button w3-hide-small">Micropigmentação <b>PRO</b></a>
 
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
@@ -40,6 +43,24 @@
       <a href="cuidados.html" class="w3-bar-item w3-button">Cuidados</a>
 	    <a href="duvidas.html" class="w3-bar-item w3-button">Duvidas</a>
       <a href="#contato" class="w3-bar-item w3-button">Contato</a>
+    </div>
+
+    <!-- Top Navigation Mobile Menu -->
+    <div class="topnav w3-hide-large">
+      <a href="#home">Micropigmentação <b>PRO</b></a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+          <a href="#sobre" onclick="clickMobileMenu()">Sobre</a>
+          <a href="#tecnicas" onclick="clickMobileMenu()">Técnicas</a>
+          <a href="#projetos" onclick="clickMobileMenu()">Projetos</a>
+          <a href="cuidados.html" onclick="clickMobileMenu()">Cuidados</a>
+          <a href="duvidas.html" onclick="clickMobileMenu()">Duvidas</a>
+          <a href="#contato" onclick="clickMobileMenu()">Contato</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="clickMobileMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
   </div>
 </div>
