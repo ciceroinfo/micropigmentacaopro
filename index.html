@@ -17,8 +17,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
 
-<script src="./js/scripts.js"></script>
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117448030-1"></script>
 <script>
@@ -27,6 +25,15 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-117448030-1');
+
+function clickMobileMenu() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 </script>
 
 <!-- Navbar (sit on top) -->
