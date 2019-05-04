@@ -186,25 +186,25 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Projeto 1</div>
-        <img src="./w3images/projetos/1556666094050.jpg" alt="House" style="width:100%">
+        <img src="./w3images/projetos/1556666094050.jpg" alt="Projeto 1" style="width:100%" onclick="clickImageModal(this)">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Projeto 2</div>
-        <img src="./w3images/projetos/1556668253432.jpg" alt="House" style="width:100%">
+        <img src="./w3images/projetos/1556668253432.jpg" alt="Projeto 2" style="width:100%" onclick="clickImageModal(this)">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Projeto 3</div>
-        <img src="./w3images/projetos/1556804307464.jpg" alt="House" style="width:100%">
+        <img src="./w3images/projetos/1556804307464.jpg" alt="Projeto 3" style="width:100%" onclick="clickImageModal(this)">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Projeto 4</div>
-        <img src="./w3images/projetos/1556806602818.jpg" alt="House" style="width:100%">
+        <img src="./w3images/projetos/1556806602818.jpg" alt="Projeto 4" style="width:100%" onclick="clickImageModal(this)">
       </div>
     </div>
   </div>
@@ -269,6 +269,20 @@
     logged_out_greeting="Olá, em que posso ajudar?">
   </div>
   -->
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close" onclick="clickModalClose()">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+
 <!-- End page content -->
 </div>
 
@@ -277,7 +291,7 @@
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.humanize-se.com" title="W3.CSS" target="_blank" class="w3-hover-text-green">Humanize-se</a></p>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
 <!-- Add Google Maps -->
