@@ -59,7 +59,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- Top Navigation Mobile Menu -->
     <div class="topnav w3-hide-large">
-      <a href="/#home">Micropigmentação <b>PRO</b></a>
+      <a href="#home">Micropigmentação <b>PRO</b></a>
       <!-- Navigation links (hidden by default) -->
       <div id="myLinks">
           <a href="/#sobre" onclick="clickMobileMenu()">Sobre</a>
@@ -67,7 +67,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <a href="/#projetos" onclick="clickMobileMenu()">Projetos</a>
           <a href="cuidados.html" onclick="clickMobileMenu()">Cuidados</a>
           <a href="duvidas.html" onclick="clickMobileMenu()">Duvidas</a>
-          <a href="/#contato" onclick="clickMobileMenu()">Contato</a>
+          <a href="/#contato" onclick="clickMobileMenu()" disabled >Contato</a>
       </div>
       <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
       <a href="javascript:void(0);" class="icon" onclick="clickMobileMenu()">
@@ -91,17 +91,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
-  <!-- Contact Section -->
-  <div class="w3-container w3-padding-32" id="contato">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contato</h3>
-    <p>Vamos entrar em contato e falar sobre o seu e nosso próximo projeto. Qualquer duvida você pode entrar em contato pelos links abaixo:</p>
-    <p style="margin:0"><font size="2" color="gray">Podemos conversar por E-mail, Celular, Instagram, Facebook Messager ou Whatsapp</font></p>
-    <a href="tel:041991348410" class="w3-button w3-black w3-section">LIGAR (41) 9 9201-3979</a><br />
-    <a href="https://www.facebook.com/micropigmentacaopro/" target="_blank"><img src="./images/facebook48.png" width="38" height="38" alt="Facebook"></a>
-    <a href="https://www.instagram.com/micropigmentacaopro/" target="_blank"><img src="./images/instagram48.png" width="38" height="38" alt="Instagram"></a>
-	  <a href="https://wa.me/554192013979" target="_blank"><img src="./images/whatsapp48.png" width="38" height="38" alt="Whatsapp"></a>
-	  <a href="https://m.me/micropigmentacaopro" target="_blank"><img src="./images/messenger48.png" width="38" height="38" alt="Facebook Messenger"></a>
-	  <p style="margin:0"><font size="2" color="gray"><a href="mailto:micropigmentacaopro@gmail.com">micropigmentacaopro@gmail.com</a></font></p>
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projetos">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projetos</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Projeto 1</div>
+        <img src="./w3images/projetos/1556666094050.jpg" alt="Projeto 1" style="width:100%" onclick="clickImageModal(this)">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Projeto 2</div>
+        <img src="./w3images/projetos/1556668253432.jpg" alt="Projeto 2" style="width:100%" onclick="clickImageModal(this)">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Projeto 3</div>
+        <img src="./w3images/projetos/1556804307464.jpg" alt="Projeto 3" style="width:100%" onclick="clickImageModal(this)">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Projeto 4</div>
+        <img src="./w3images/projetos/1556806602818.jpg" alt="Projeto 4" style="width:100%" onclick="clickImageModal(this)">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Projeto 5</div>
+        <img src="./w3images/project1.jpg" alt="House" style="width:99%" onclick="clickImageModal(this)">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Projeto 6</div>
+        <img src="./w3images/project1.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Projeto 7</div>
+        <img src="./w3images/project1.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Projeto 8</div>
+        <img src="./w3images/project1.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
   </div>
 
   <!-- The Modal -->
